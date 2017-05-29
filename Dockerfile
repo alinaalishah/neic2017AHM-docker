@@ -1,7 +1,7 @@
-From Ubuntu
+FROM Ubuntu:14.04
 
-Maintainer  
+MAINTAINER test
 
 RUN apt-get-upfate -y 
-RUN apt-get install wget -y
-RUN apt-get install vim -y
+RUN apt-get install wget vim curl -y
+
